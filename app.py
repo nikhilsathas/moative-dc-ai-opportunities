@@ -42,7 +42,7 @@ if not SOURCE_HTML.exists():
     st.stop()
 
 app_html = SOURCE_HTML.read_text(encoding="utf-8")
-app_html = app_html.replace("17 August 2026", "August 2026").replace(
+app_html = app_html.replace(
     "Generator testing & emissions compliance copilot",
     "Generator Testing & Emissions Compliance Manager",
 ).replace(
